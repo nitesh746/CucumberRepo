@@ -8,7 +8,7 @@ public class Add {
 	
 	@Given("I have entered first number")
 	public void enterFirstNumber() {
-		System.out.println("First Number = 15");
+		System.out.println("First Number = 25");
 	}
 	
 	@Given("I have enetered second number")
@@ -23,7 +23,7 @@ public class Add {
 	
 	@Then("^[a-zA-Z]{1,} of two numbers should be shown$")
 	public void displaySum() {
-		System.out.println("Sum of two numbers is = 20");
+		System.out.println("Sum of two numbers is = 30");
 	}
 
 //	@When("I press substract button")
